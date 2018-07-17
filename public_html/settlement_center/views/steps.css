@@ -1,0 +1,127 @@
+
+.button{
+	 display:inline-block;
+	 padding:12px;
+	 background:blue;
+	 cursor:pointer;
+	 color:#fff;font-weight:bold;font-size:16px;
+ }
+ .button a, .button span  {
+	 color:#fff;font-weight:bold;font-size:16px;
+ }
+ .button a:hover,  .button span:hover {
+	 color:blue;
+ }
+ .button{
+	 display:inline-block;
+	 width:15%;
+	 padding:10px;
+	 background:#EEEEE0;
+	 border:2px solid #0051a3;
+	 cursor:pointer;
+	 color:#0051a3;font-weight:bold;font-size:14px;
+
+	 text-align: center;
+	 margin-left:10px;
+	 margin-right:10px;
+
+ }
+ .button a,.button select  {
+	 color:#0051a3;font-weight:bold;font-size:14px;background:#EEEEE0;
+ }
+ .button form{
+     margin-bottom: 0em;}
+
+ .button input{
+     width:170px;
+     color:#0051a3;font-weight:bold;font-size:14px;background:#EEEEE0;
+     border:0;
+ }
+.button input[type="text"]::placeholder
+{
+/*  color: #0051a3;*/
+/*}*/
+/*input::placeholder {*/
+  color: #0051a3;
+}
+
+ .button input:hover,.button:hover input  {
+	 color:blue;background:#fff;
+ }
+ .button a:hover,.button:hover a {
+	 color:blue;background:#fff;
+ }
+ .button select:hover,.button:hover select  {
+	 color:blue;background:#fff;
+ }
+ .button:hover {
+	  background:#0051a3;
+	  color:#fff;font-weight:bold;
+ }
+.button select{
+-moz-appearance: none;
+-webkit-appearance: none;
+border: none;
+position: relative;
+outline: none;
+}
+ #not {
+	 background:transparent;
+ }
+ .button:hover {
+	  background:transparent;
+	  color:blue;font-weight:normal;
+ }
+
+ /*Scor edit*/
+ .button--red {
+  background-color: #fe1f04;
+  color: white;
+  border: 1px solid transparent;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s; }
+  .button--red:hover {
+    background-color: white;
+    border-color: #fe1f04;
+    color: #fe1f04; }
+
+.button--blue {
+  background-color: #0051a3;
+  color: white;
+  border: 1px solid transparent;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer; }
+  .button--blue:hover {
+    background-color: white;
+    border-color: #0051a3;
+    color: #0051a3; }
+
+.button--white {
+  background-color: #ffffff;
+  color: #0051a3;
+  border: 1px solid transparent;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer; }
+  .button--white:hover {
+    background-color: #efefef;
+    border-color: transparent;
+    font-weight: bold;
+    color: #0051a3; }
+
+.button--normal {
+  width: auto; }
+
+.button--rounded {
+  -webkit-border-radius: 2px;
+          border-radius: 2px; }
+
+.button--100 {
+  width: 100%; }
+
+/*Scor edit end*/
